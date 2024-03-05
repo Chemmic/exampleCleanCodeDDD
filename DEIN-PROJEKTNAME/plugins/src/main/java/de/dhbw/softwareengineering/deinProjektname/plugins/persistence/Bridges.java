@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import de.dhbw.softwareengineering.deinProjektname.domain.repositories.BridgeRepository;
 
 
-//Muss die jeweiligen reportorys implementieren
+//Muss das jeweilige Domain Repository implementieren
 @Repository
 public class Bridges  implements BridgeRepository  {
 
