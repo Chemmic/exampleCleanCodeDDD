@@ -9,9 +9,13 @@ import de.dhbw.softwareengineering.deinProjektname.domain.repositories.BridgeRep
 @Repository
 public class Bridges  implements BridgeRepository  {
 
+	@Autowired
+	springDataForBridge springDataForBridge;
+	
 	@Override
 	public void deleteById(Long id) {
-		// implementieren
+		// implementieren der "Bridge"
+		//z.B. springDataForBridge.deleteById(id);
 		
 	}
 
